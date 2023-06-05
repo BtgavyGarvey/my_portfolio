@@ -1,0 +1,38 @@
+.nav{
+    display: flex;
+    margin: auto;
+    padding: 2%;
+    gap: 2rem;
+    justify-content: right;
+
+}
+.nav a{
+    color: black;
+}
+.nav a:hover{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.img{
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    max-width: 20%;
+    max-height: 80%;
+    border-radius: 5%;
+}
+.img div{
+    padding: 2%;
+}
+.container h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: blue;
+}
+.container{
+    padding: 3%;
+}
