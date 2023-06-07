@@ -10,14 +10,38 @@
     <body>
 
         <div>
-            <nav class="bg-info nav " >
-                <a href="index.html" class="text-decoration-none">Home</a>
-                <a href="index2.html" class="text-decoration-none">About</a>
-                <a href="index4.html" class="text-decoration-none">Contact</a>
-            </nav>
+            <nav class="navbar bg-body-tertiary bg-primary" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand fw-bold" href="#">
+                    <img src="img.jpeg" alt="Logo" class="d-inline-block align-text-top">
+                    My Portfolio
+                  </a>
+                  <div class="justify-content-center text-decoration-none collapse nav-div1">
+                        <a class="nav-link active disabled" aria-current="page">Projects</a>
+                        <a class="nav-link" href="index2.html">About</a>
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index4.html">Contacts</a>
+                  </div>
+                  <div class="nav-div2">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active disabled" aria-current="page">Projects</a>
+                        <a class="nav-link" href="index2.html">About</a>
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index4.html">Contacts</a>
+                    </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </nav>
             <div class="container">
                 <div>
-                    <h3>My Projects</h3>
+                    <h3 class="h3 fw-bold text-primary">My Projects</h3>
+                    
                     <p>
                         I have done a lot of projects by my self or in a team. Below are the lists of the projects that I have done so far.
 
@@ -27,7 +51,12 @@
                             <li>Help a Child System for children homes</li>
                             <li>A Church Management System</li>
                             <li>An Internship Alert System for a University</li>
+                            <li>Point Of Sale System for a Butchery</li>
                         </ul>
+
+                    </p>
+                    <p>
+                        My <a class="fw-bold" href="https://github.com/BtgavyGarvey" target="_blank">Github</a> account.
 
                     </p>
                 </div>                
